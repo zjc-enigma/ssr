@@ -22,8 +22,8 @@ module.exports = {
         test: /\.jsx$|\.js$/,
         loader: 'eslint-loader',
         include: `${__dirname}/src`,
-        exclude: /bundle\.js$/
-      }
+        exclude: /bundle\.js$/,
+      },
     ],
     loaders: [{
       test: /\.js$/,
